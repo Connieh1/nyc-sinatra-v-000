@@ -3,14 +3,14 @@
 <%= @figure.name %>
 
 <ul>
-  <% @figure.title_ids.each do |title| %>
+  <% @figure.titles.each do |title| %>
   <%= title.name  %>
   <% end %>
 </ul>
 
 
 <ul>
-  <% @figure.landmark_ids.each do |landmark|  %>
+  <% @figure.landmarks.each do |landmark|  %>
   <%= landmark.name %>
   <% end %>
 </ul>
