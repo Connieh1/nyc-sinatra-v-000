@@ -40,7 +40,7 @@
 <h2>Titles</h2>
 <% Title.all.each do |title| %>
 <label><%= title.name %></label>
-<%= title.name %><input type="checkbox" name="figure[title_ids][]" id="title_<%=title.id%>" value="title.id"><br>
+<input type="checkbox" name="figure[title_ids][]" id="title_<%=title.id%>" value="title.id"><br>
 <% end %>
 <br>
 
